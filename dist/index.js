@@ -165,15 +165,15 @@ const bill = {
         return `hello ${this.id} ${this.amount} ${this.server}`;
     },
 };
-function printFormatted(val) {
+function printFormatted1(val) {
     console.log(val.format());
 }
 function printBill(bill) {
     console.log("server:", bill.server);
     console.log("server:", bill.format());
 }
-printFormatted(user3);
-printFormatted(bill);
+printFormatted1(user3);
+printFormatted1(bill);
 // printBill(user3);
 printBill(bill);
 const personeOne = {

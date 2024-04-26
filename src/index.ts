@@ -289,7 +289,7 @@ const bill = {
   },
 };
 
-function printFormatted(val: HasFormatter): void {
+function printFormatted1(val: HasFormatter): void {
   console.log(val.format());
 }
 
@@ -298,8 +298,8 @@ function printBill(bill: Bill): void {
   console.log("server:", bill.format());
 }
 
-printFormatted(user3);
-printFormatted(bill);
+printFormatted1(user3);
+printFormatted1(bill);
 // printBill(user3);
 printBill(bill);
 
