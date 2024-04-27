@@ -7,7 +7,7 @@ function createPizzaTemplate(pizza: PizzaProps): string {
         <div class="pizza">
             <h2>${pizza.title}</h2>
             <p class="toppings">${pizza.toppings.join(", ")}</p>
-            <p>$${pizza.description}</p>
+            <p>${pizza.description}</p>
             <span>$${pizza.price}</span>
         </div>
     `;
